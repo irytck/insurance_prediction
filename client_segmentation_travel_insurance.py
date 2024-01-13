@@ -59,9 +59,9 @@ import matplotlib.pyplot as plt
 from google.colab import drive
 drive.mount('/content/drive')
 
-old_clients = pd.read_csv("Travel Insurance/old_clients.csv", delimiter = ';')
+old_clients = pd.read_csv("data/old_clients.csv", delimiter = ';')
 
-new_clients = pd.read_csv("Travel Insurance/new_clients.csv", delimiter = ';')
+new_clients = pd.read_csv("data/new_clients.csv", delimiter = ';')
 
 old_clients.info()
 
